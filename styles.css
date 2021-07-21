@@ -39,6 +39,7 @@ textarea{
 
 textarea:focus{
   outline: none;
+  font-weight: bolder;
   border: 3px solid var(--primary-color);
 }
 
@@ -49,7 +50,7 @@ textarea:focus{
 }
 
 button{
-  border: none;
+  border: 2px solid var(--primary-color);
   border-radius: var(--rem-space);
   background-color: var(--primary-color);
   padding: var(--rem-space) calc(var(--rem-space)*2);
@@ -58,11 +59,22 @@ button{
   cursor: pointer;
 }
 
+button:hover{
+  border: 2px solid var(--secondary-color);
+}
+
 .paragraph{
   max-width: 60vw;
   text-align: center;
   margin: 0;
   margin-bottom: var(--rem-space);
+}
+
+.link{
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 calc(var(--rem-space)*0.5);
+  font-size: calc(var(--rem-space)*1.5);
 }
 
 footer{
