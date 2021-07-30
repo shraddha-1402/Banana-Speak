@@ -34,7 +34,7 @@ body{
   max-width: 90vmin;
 }
 
-textarea{
+.text{
   display: block;
   height: 160px;
   width: 60vw;
@@ -46,7 +46,7 @@ textarea{
   overflow: auto;
 }
 
-textarea:focus{
+.text:focus{
   outline: none;
   font-weight: bolder;
   border: 3px solid var(--primary-color);
