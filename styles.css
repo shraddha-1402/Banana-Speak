@@ -11,6 +11,12 @@ body{
   font-family: 'Merriweather', sans-serif;
 }
 
+.text, button{
+  font-family: inherit;
+  letter-spacing: 1px;
+
+}
+
 .navigation{
   background-color: var(--primary-color);
   text-align: center;
@@ -42,13 +48,13 @@ body{
   padding: var(--rem-space);
   border-radius: var(--rem-space);
   border: 3px solid var(--secondary-color);
-  font-size: large;
+  font-size: 16px;
+  font-weight: bolder;
   overflow: auto;
 }
 
 .text:focus{
   outline: none;
-  font-weight: bolder;
   border: 3px solid var(--primary-color);
 }
 
